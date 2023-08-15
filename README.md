@@ -1,4 +1,5 @@
-
+**- This is a microservice I made for my partner in CS 361 that receives some information about a stock and sends back ratios of said stocks -**
+ 
  **- Clear instructions for how to programmatically REQUEST data from the microservice you implemented. Include an example call.**   
 To programmatically request data from the microservice, you must make a POST request to the /get_ratios endpoint of the host that the service is running on. The default port that this service uses is 5000 so the program calling this service must be using the URL "http://localhost:5000/get_ratios" to send and receive data.
 
@@ -38,3 +39,7 @@ To programmatically receive data from the microservice, you must first ensure th
 
  Class Diagram -    
 ![Screen Shot 2023-07-26 at 11 06 54 PM](https://github.com/ryanmaki18/CS-361-Project/assets/130192949/7432b485-5055-4532-bef5-46318e7d5e8e)   
+   
+Instructions for this Assignment (See my CS-361-Project Repository for the implementation of my project):
+![image](https://github.com/ryanmaki18/CS361-Microservice/assets/130192949/347f253a-124c-4079-a14e-e0cd89dd7eec)
+![image](https://github.com/ryanmaki18/CS361-Microservice/assets/130192949/b7384d89-55bd-4621-9c7e-dadf82c2724a)
